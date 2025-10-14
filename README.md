@@ -8,7 +8,7 @@ This is a top-down survival game featuring melee and ranged combat, leveling up 
 ## 🎮 Current Features
 
 ### 🔹 Movement
-- Screen Settings: windowed mode 1920-1080 resolution
+- Screen Settings: 1920-1080 resolution
 - **W, A, S, D** or **Arrow Keys** to move the player
 - mouse movement (left,right) makes the character flip_horizontally
 
