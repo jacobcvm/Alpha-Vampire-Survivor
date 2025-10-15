@@ -8,7 +8,7 @@ This is a top-down survival game featuring melee and ranged combat, leveling up 
 ## 🎮 Current Features
 
 ### 🔹 Movement
-- Screen Settings: 1920-1080 resolution
+- Screen Settings: windowed mode 1920-1080 resolution
 - **W, A, S, D** or **Arrow Keys** to move the player
 - mouse movement (left,right) makes the character flip_horizontally
 
@@ -37,7 +37,7 @@ This is a top-down survival game featuring melee and ranged combat, leveling up 
   - Move back and forth and attack when they have a collision with the player
   - Spawn outside the screen and move toward the player
   - Spawn more frequently as time passes
-  - new spawns gain better hp, movement speed and damage every minute.
+  - new spawns give more xp, gain better hp, movement speed and damage every minute.
   - Stronger enemies spawn less often than the weaker ones
   - The player becomes black when hit by any of their attacks
   - Drop XP on death
@@ -46,7 +46,7 @@ This is a top-down survival game featuring melee and ranged combat, leveling up 
    - Slash attacks pushes the small thieves away from the player   
 
 ### 🔹 Magnet Mechanic
-- XP will follow the player when within range until it is collected
+- XP and gold will follow the player when within range until it is collected
 
 ---
 
@@ -121,7 +121,7 @@ During gameplay, the UI displays:
 - **Health Potion**: restore 50% of health -Heart-
 - **Magnet**: -purple crystal-
 - Increases pickup range and movement speed for:
-- (XP drops, attack boost and movement speed): duration: 10 s
+- (XP drops and gold): duration: 10 s
 
 ---
 
