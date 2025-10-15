@@ -127,15 +127,16 @@ During gameplay, the UI displays:
 
 ## 🚧 Features To-Do
 
-### ⚙️ Gameplay
-- [ ] Limit maximum number of enemies and drops 
+### ⚙️ Gameplay 
 - [ ] Show active boosts in the UI 
-- [ ] Add rarity system for upgrades
 - [ ] Show the numbers about each upgrade for example: dmg+10
-- [ ] screen effect when player gets hit
+- [ ] OPTIONAL: Add a stats menu after death to know the performance of each weapon
+- [ ] OPTIONAL: Improve visuals of the menus
+- [ ] OPTIONAL: Add a mini health bar above the head of the main character that only appears when you're not full health
+- [ ] OPTIONAL: Add rarity system for upgrades
 
 ### ⚔️ Weapons
-- [ ] Add more weapons?
+- [ ] find a better sprite for the slash attack
 
 ### 📋 UI & Menus
 - [ ] Add options in the main menu  
