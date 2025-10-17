@@ -30,6 +30,15 @@ This is a top-down survival game featuring melee and ranged combat, leveling up 
    - Very tanky  
    - Fires ranged fireball attacks  
    - Drops a chest that grants a level-up
+   - moves slowly
+5. **Knight Boss**
+   - Has his own a health bar
+   - Extremely Tanky
+   - has rotating ice shards around him
+   - moves fast
+   - has melee attacks
+   - Always Drops 1000 gold 
+   - makes you level up several times in a row 
 
 #### Enemy Behavior
 - All enemies:
