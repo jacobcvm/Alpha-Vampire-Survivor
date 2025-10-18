@@ -23,36 +23,41 @@ This is a top-down survival game featuring melee and ranged combat, leveling up 
 
 ### 🔹 Enemies
 1. **Thief**
+   - 5% chance to drop at least 1 gold    
 2. **Anomaly**
+   - 20% chance to drop at least 10 gold
 3. **Dead**
    - Moves fast
+   - 30% chance to drop at least 50 gold
 4. **Flying Demon**
    - Very tanky  
-   - Fires ranged fireball attacks  
+   - Fires ranged fireball attacks
+   - retreats slowly when the player is too close  
    - Drops a chest that grants a level-up
    - moves slowly
+   - 50% chance to drop at least 250 gold
+   - doesn't change his movement when he attacks
 5. **Knight Boss**
    - Has his own a health bar
    - Extremely Tanky
    - has rotating ice shards around him
    - moves fast
    - has melee attacks
-   - Always Drops 1000 gold 
+   - Always Drops at least 1000 gold 
    - makes you level up several times in a row 
 
 #### Enemy Behavior
 - All enemies:
-  - Become black when hit
-  - Move back and forth and attack when they have a collision with the player
+  - touching enemies makes the player take damage over time
+  - enemy attacks are deadly
+  - Become black when hit and are pushed back from the slash attack
+  - stop moving to use their attacks when they're in range
   - Spawn outside the screen and move toward the player
   - Spawn more frequently as time passes
-  - new spawns give more xp, gain better hp, movement speed and damage every minute.
+  - new spawns give more xp, gold, gain better hp, movement speed and damage every minute.
   - Stronger enemies spawn less often than the weaker ones
   - The player becomes black when hit by any of their attacks
-  - Drop XP on death
-
-- Thief the small brown enemy
-   - Slash attacks pushes the small thieves away from the player   
+  - Drop XP on death  
 
 ### 🔹 Magnet Mechanic
 - XP and gold will follow the player when within range until it is collected
